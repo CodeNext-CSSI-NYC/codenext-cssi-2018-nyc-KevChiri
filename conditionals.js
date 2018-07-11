@@ -58,6 +58,8 @@ else {
 }
 // 6. Ask the user if they have been a citizen for at least 9 years (yes or no), ask them their age, and ask if they live in New York state.
 // If they answer yes, their age is above 30, and yes, then tell them they can run for senate in NY. Otherwise, say that they cannot.
+var readline = require("readline-sync");
+var x = readline.question("Are you citizen for at least 9 years?")
 
 // 7. Write a program that asks the user to enter a whole number 1-7 and prints out the corresponding day of the week.
 // If you want another challenge, look up how to use switch statements and use a switch instead of if-else for this.
