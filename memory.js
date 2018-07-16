@@ -15,15 +15,20 @@ Once you have the game working, feel free to add any features you want.
 You will need to read carefully and fill in all of the functions below based on
 the descriptions I have provided.
 ****************/
-
 let shuffle = require("shuffle-array");
 let readline = require("readline-sync");
+// Author: FirstName LastName
+var x = parseInt(readline.question("enter two numbers that match,"));
+
 
 // This function takes in the tracker array and checks whether or not it contains any X's
 // If it contains an X, it should return false, because the game is not over.
 // If it contains no X's, it should return true, because the game is over.
 function isGameOver(tracker) {
-  // Your code here
+  var cards = [2,3,4,1,4,2,3,1]
+  if (x == cards[]){
+    console.log ("correct");
+  }
 }
 
 // This function prints out the tracker array so that the user can see how they are doing.
