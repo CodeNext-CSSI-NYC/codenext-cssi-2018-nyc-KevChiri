@@ -70,7 +70,9 @@ console.log(numbs.length)
 var foods = ["apple","burger","pasta", "pizza"]
 // Set up a for loop that will iterate (go through) the array.
 for(i = 0; i < foods.length; i++){
-console.log(foods.charAt(i));
+var test = foods[i]
+console.log(test)
+console.log(test.toUpperCase())
 }
 
 // Do NOT use the number 4 (or 3) in your for loop.
