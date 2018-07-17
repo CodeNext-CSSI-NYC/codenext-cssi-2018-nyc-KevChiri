@@ -13,11 +13,9 @@ for(let i = 0; i < words.length; i++) {
     console.log(words[i]);
   }
 }
-
 // 1. In the array above, find all words that are 12 letters long.
 // Specifically, add them all to a new array and then print out that array at the end.
 // (You shouldn't use an object to do this, it's a warm up.)
-
 
 
 // 2. Find all words that contain both x and z (or whatever fun combos you like).
