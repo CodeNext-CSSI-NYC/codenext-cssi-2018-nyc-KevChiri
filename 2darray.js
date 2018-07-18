@@ -39,10 +39,11 @@ for(i = 0; i<4; i++) {
 // 3. Use two nested loops to iterate (go through) the fruits array above.
 // Inside the loops, print out the item at that particular row/column.
 // Which item do you think will be printed second-to-last? Run the code to check.
-for(i = 0; i<fruits.length; i++);
-  for(j = 0; j<fruits.length; j++);
-  console.log(i,j)
-
+for(i = 0; i<fruits.length; i++){
+  for(j = 0; j<fruits[0].length; j++){
+    console.log(fruits[i][j]);
+  }
+}
 
 // 4. Create your own 2D array. It doesn't have to be too big, but it should
 // have at least two rows and at least two columns, and at least 6 items overall.
