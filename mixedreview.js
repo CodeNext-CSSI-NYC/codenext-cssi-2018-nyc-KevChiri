@@ -44,7 +44,7 @@ function sumUpTo(num) {
 }
 console.log(sumUpTo(100))
 // If your function is correct, these should both print true.
-// console.log(sumUpTo(10) == 55);
+// console.log(sumUpTo(10)  == 55);
 // console.log(sumUpTo(100) == 5050);
 
 
@@ -93,6 +93,7 @@ function lastTime(arr, num) {
 // Do NOT use the exponent operation **, that defeats the whole point of the exercise.
 function powers(base, exponent) {
   let result = 1;
+  for(i = 0; i < 12)
   // Hint: For loop goes here. Each time through the loop, you should do some
   // multiplication and store the answer back in result.
 }
@@ -179,7 +180,9 @@ function fibonacci(num) {
 // 11. Write a function that takes in an object called coins (see example below) and
 // returns the amount of money those coins represent in dollars.
 function countMoney(coins) {
+  var coins = {
 
+  }
 }
 // Below is a test that calls this function with an object that four properties,
 // each representing how many coins I have.
